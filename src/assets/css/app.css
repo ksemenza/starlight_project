@@ -1,5 +1,5 @@
 .app-cta {
     display: flex;
-    margin: 0 auto;
-    width: 100vw;
+    margin: 0;
+    padding: 0;
 }

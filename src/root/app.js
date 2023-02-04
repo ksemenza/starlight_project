@@ -6,8 +6,7 @@ import HeaderRoot from './headerRoot';
 
 function app() {
   return (
-    <div  className="app-cta"
-    >
+    <div  className="app-cta" >
 
     <HeaderRoot/>
 
