@@ -57,7 +57,7 @@ body {
   font-family: IndieFlower, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 
 }
@@ -72,15 +72,12 @@ code {
   html {
     background-image: none;
     /* background-color: #ff74aA; */
-    min-width: 100%;
-    min-height: 400px;
+    max-width: 100%;
+    min-height: 100vh;
     background-image: url('../img/pink_crouch.jpg');
 
   }
-  .path-cta {
-    width: 100vw;
-    height: 100vh;
-  }
+
   
   .home-cta {
     /* max-width: 100%; */
