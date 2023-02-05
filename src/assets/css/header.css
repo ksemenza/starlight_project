@@ -9,8 +9,14 @@
 }
 
 .header-h1 {
-    text-shadow: 2px 1px palevioletred;
-    margin: 20px 5px 5px 25px;
+    text-shadow: 3px 1px white;
+    margin: 0px 0px 0px 25px;
+    padding: 0;
+    color: black;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+
 
 }
 
@@ -32,9 +38,10 @@
 .nav-bar-link {
     text-decoration: none;
     color: black;
-    text-shadow: 2px 1px white;
+    text-shadow: 2px 1px black;
+    color: white;
     margin: 5px 15px;
-    font-weight: 800;
+    font-size: 25px;
 }
 
 

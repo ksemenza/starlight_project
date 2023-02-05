@@ -1,12 +1,18 @@
-/* Studio */
+/* Home */
+.home-cta {
+    
+}
 
+
+/* Studio */
 .path-cta {
     background-color:black; opacity:0.4;
-    width: 100vw;
-    height: 100%;
-    margin: 10px; 
+    min-width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: stretch;
+
 }
 
 .path-h2 {
@@ -14,6 +20,6 @@
     margin: 0;
     font-size:55px;
     color: white;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px palevioletred;
 
 }
