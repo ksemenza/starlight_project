@@ -1,18 +1,27 @@
 /* Home */
 .home-cta {
-    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-h2 {
+    color: black;
+    font-size: 38px;
+
 }
 
 
 /* Studio */
 .path-cta {
     background-color:black; opacity:0.4;
-    min-width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: stretch;
-
+    padding: 15px;
 }
 
 .path-h2 {
