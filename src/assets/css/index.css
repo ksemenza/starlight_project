@@ -74,7 +74,7 @@ code {
     /* background-color: #ff74aA; */
     min-width: 600px;
     max-height: 400px;
-    /* background-image: url('../img/pink_crouch.jpg'); */
+    background-image: url('../img/pink_crouch.jpg');
 
   }
   .path-cta {
