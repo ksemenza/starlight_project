@@ -67,3 +67,10 @@ code {
     monospace;
 }
 
+@media(max-width:640px) {
+  html {
+    background-image: none;
+    width: auto;
+  }
+}
+
