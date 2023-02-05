@@ -73,7 +73,7 @@ code {
     background-image: none;
     /* background-color: #ff74aA; */
     min-width: 600px;
-    max-height: 400px;
+    min-height: 400px;
     background-image: url('../img/pink_crouch.jpg');
 
   }
