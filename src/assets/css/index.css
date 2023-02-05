@@ -9,15 +9,44 @@ html {
   width: 100vw;
 }
 
+/*  PermanentMarker 
+Caveat
+IndieFlower
+MarckScript
+MochiyPopOne
+MontserratAlternates
+Pacifico
+SassyFrass
+ShadowsIntoLight,
+Solitreo,
+Tangerine,
+Unbound
+
+*/
+/* Permanent Marker */
 @font-face {
   font-family: "PermanentMarker";
   src: local("'../font/PermanentMarker.ttf"),
     url("../font/PermanentMarker.ttf") format("truetype");
 }
+/* Caveat */
+@font-face {
+  font-family: "Caveat";
+  src: local("'../font/Caveat.ttf"),
+    url("../font/Caveat.ttf") format("truetype");
+}
+
+/* IndieFlower */
+@font-face {
+  font-family: "IndieFlower";
+  src: local("'../font/IndieFlower.ttf"),
+    url("../font/IndieFlower.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: PermanentMarker, serif;
+  font-family: IndieFlower, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 

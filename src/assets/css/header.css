@@ -1,14 +1,16 @@
 /* Root Header */
 .header-root-cta {
     display: flex;
-    justify-content: space-around;
-    min-width: 100vw;
-    min-height: 100vh;
-    margin: 5px;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+
 }
 
 .header-h1 {
-    text-shadow: 2px 1px white;
+    text-shadow: 2px 1px palevioletred;
+    margin: 20px 5px 5px 25px;
 
 }
 
@@ -24,14 +26,14 @@
 .nav-bar-cta {
     display: flex;
     justify-content: space-between;
-    min-width: 100%
+    max-width: 100%
 }
 
 .nav-bar-link {
     text-decoration: none;
     color: black;
     text-shadow: 2px 1px white;
-    margin: 5px;
+    margin: 5px 15px;
     font-weight: 800;
 }
 
