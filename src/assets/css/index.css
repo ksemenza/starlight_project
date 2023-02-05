@@ -1,10 +1,16 @@
+#root {
+  width: 100vw;
+  
+  margin: 0 auto;
+}
+
 html {
   background-image: url('../img/pink_crouch.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
   margin: 0 auto;
-  max-width: 100%;
+  min-width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;

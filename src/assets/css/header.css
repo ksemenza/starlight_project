@@ -2,7 +2,7 @@
 .header-root-cta {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    min-width: 600px;
     /* height: 100vh; */
     padding: 0;
 
