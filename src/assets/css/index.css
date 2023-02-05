@@ -70,7 +70,11 @@ code {
 @media(max-width:640px) {
   html {
     background-image: none;
+    background-color: #ff74aA;
     width: auto;
+  }
+  .path-cta {
+    background-color: #ff74aA;
   }
 }
 

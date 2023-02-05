@@ -32,3 +32,12 @@
     text-shadow: 2px 1px palevioletred;
 
 }
+
+
+/* Media Query Responsive Design */
+
+@media(max-width:650px) {
+    .path-cta {
+        background-color: #ff74aA;
+    }
+}
