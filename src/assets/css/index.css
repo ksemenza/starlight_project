@@ -69,9 +69,9 @@ code {
 
 @media(max-width:640px) {
   html {
-    background-image: url('../img/pink_crouch.jpg');
     background-color: #ff74aA;
     width: auto;
+    height: auto;
   }
   .path-cta {
     background-color: #ff74aA;
