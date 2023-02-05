@@ -58,3 +58,13 @@
     margin-right: 15px;
 
 }
+
+/* Media Query Responsive Design */
+
+@media(max-width:650px) {
+    .header-root-cta {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
