@@ -71,7 +71,7 @@ code {
   html {
     background-color: #ff74aA;
     width: auto;
-    height: auto;
+    min-height: 400px;
   }
   .path-cta {
     background-color: #ff74aA;
