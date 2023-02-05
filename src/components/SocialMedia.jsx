@@ -1,6 +1,5 @@
 import facebook from "../assets/icon/sticker/sticker_facebook.png";
 import instagram from "../assets/icon/sticker/sticker_instagram.png";
-import twitter from "../assets/icon/sticker/sticker_twitter.png";
 import youTube from "../assets/icon/sticker/sticker_youtube.png";
 import tikTok from "../assets/icon/sticker/sticker_tiktok.png";
 import spotify from "../assets/icon/sticker/sticker_spotify.png";
@@ -20,12 +19,6 @@ function SocialMedia() {
         {" "}
         <img className="social-media-icon" src={instagram} alt="INSTAGRAM" />
       </a>
-
-          {/* Twitter */}
-      <a href="https://www.facebook.com/felicity.blaney.9?mibextid=ZbWKwL" target="_blank">
-      <img className="social-media-icon" src={twitter} alt="TWITTER" />
-      </a>
-
 
     {/* YouTube */}
       <a href="https://youtube.com/@itsfelicityestelle" target="_blank">

@@ -78,15 +78,16 @@ code {
 
   }
 
-  
-  .home-cta {
-    /* max-width: 100%; */
-
-  }
 
   .header-h1{
     display: flex;
     justify-content: center;
+  }
+
+  .path-h2 {
+    margin: 0 auto;
+    text-align: center;
+
   }
 
   .home-h2 {
