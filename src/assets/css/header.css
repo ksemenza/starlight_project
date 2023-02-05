@@ -7,23 +7,16 @@
     margin: 5px;
 }
 
+.header-h1 {
+    text-shadow: 2px 1px white;
+
+}
+
 .social-nav-cta {
     display: flex;
     flex-direction: column;
     justify-items: center;
     margin: 15px;
-}
-
-/* Social Media */
-.social-media-icon {
-    width: 25px;
-    height: 25px;
-
-}
-
-.social-media-cta {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 
@@ -32,7 +25,6 @@
     display: flex;
     justify-content: space-between;
     min-width: 100%
-
 }
 
 .nav-bar-link {
@@ -42,4 +34,16 @@
     margin: 5px;
     font-weight: 800;
 }
- 
+
+
+/* Social Media */
+.social-media-cta {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media-icon {
+    width: 25px;
+    height: 25px;
+
+}
