@@ -72,18 +72,19 @@ code {
   html {
     background-image: none;
     /* background-color: #ff74aA; */
-    min-width: 600px;
+    min-width: 100%;
     min-height: 400px;
     background-image: url('../img/pink_crouch.jpg');
 
   }
   .path-cta {
-    background-image: url('../img/pink_crouch.jpg');
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
   }
   
   .home-cta {
-    max-width: 500px;
+    /* max-width: 100%; */
+
   }
 
   .header-h1{

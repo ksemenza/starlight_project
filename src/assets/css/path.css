@@ -8,7 +8,7 @@
 
 .home-h2 {
     color: white;
-    font-size: 45px;
+    font-size: 32px;
 
 }
 
@@ -17,11 +17,11 @@
 .path-cta {
     background-color:black; opacity:0.4;
     max-width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: stretch;
     padding: 15px;
+    margin: 0 auto;
 }
 
 .path-h2 {
@@ -38,6 +38,5 @@
 
 @media(max-width:650px) {
     .path-cta {
-        background-color: #ff74aA;
     }
 }
