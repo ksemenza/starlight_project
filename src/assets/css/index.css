@@ -83,7 +83,7 @@ code {
   }
   
   .home-cta {
-    min-width: 500px;
+    max-width: 500px;
   }
 
   .header-h1{
