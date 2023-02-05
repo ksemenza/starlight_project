@@ -15,12 +15,18 @@
 
 /* Studio */
 .path-cta {
-    background-color:black; opacity:0.4;
+    /* background-color:black; opacity:0.4; */
 
     display: flex;
     justify-content: stretch;
     padding: 15px;
     margin: 0 auto;
+}
+
+.studio-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .path-h2 {
@@ -32,6 +38,9 @@
 
 }
 
+.react-player {
+    opacity: 1;
+}
 
 /* Media Query Responsive Design */
 
