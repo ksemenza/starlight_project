@@ -3,7 +3,7 @@
   max-height: 100%;
   margin: 0px auto;
   padding: 0;
-  background-color: #ff74aA;
+  
 }
 
 html {
@@ -57,7 +57,7 @@ body {
   font-family: IndieFlower, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 
 }
@@ -71,16 +71,15 @@ code {
 @media(max-width:640px) {
   html {
     background-image: none;
-    background-color: #ff74aA;
+    /* background-color: #ff74aA; */
     min-width: 600px;
-    min-height: 100%;
+    max-height: 400px;
     /* background-image: url('../img/pink_crouch.jpg'); */
 
   }
   .path-cta {
     background-image: url('../img/pink_crouch.jpg');
-    background-color: #ff74aA; 
-    width: 100vw;
+    width: 100%;
   }
   
   .home-cta {
