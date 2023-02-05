@@ -3,6 +3,7 @@
   max-height: 100%;
   margin: 0px auto;
   padding: 0;
+  background-color: #ff74aA;
 }
 
 html {
@@ -69,12 +70,30 @@ code {
 
 @media(max-width:640px) {
   html {
+    background-image: none;
     background-color: #ff74aA;
-    width: auto;
-    min-height: 400px;
+    min-width: 600px;
+    min-height: 100%;
+    /* background-image: url('../img/pink_crouch.jpg'); */
+
   }
   .path-cta {
-    background-color: #ff74aA;
+    background-image: url('../img/pink_crouch.jpg');
+    background-color: #ff74aA; 
+    width: 100vw;
+  }
+  
+  .home-cta {
+    min-width: 500px;
+  }
+
+  .header-h1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-h2 {
+    visibility: hidden;
   }
 }
 
