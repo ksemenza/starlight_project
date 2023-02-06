@@ -6,7 +6,7 @@ import HeaderRoot from "./root/headerRoot";
 import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter } from "react-router-dom";
-import './assets/css/media_queries.css'
+// import './assets/css/media_queries.css'
 import './assets/font/PermanentMarker.ttf'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
