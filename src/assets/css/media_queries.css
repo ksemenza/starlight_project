@@ -1,24 +1,29 @@
-
 /* Media Query Responsive Design */
 
 @media(max-width:900px) {
-  
+
     /* Root */
 
     #root {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+
     }
+
     html {
         background-image: none;
-        background-color: #ff74aA;
+        /* background-color: #ff74aA; */
         /* max-width: 100vw;
         max-height: 100vh; */
         background-image: url('../img/pink_crouch.jpg');
-        /* margin: 0 auto; */
-      }
+    }
 
-      .app-cta {
+    .app-cta {
         margin: 0 auto;
+        height: 100%;
         visibility: hidden;
     }
 
@@ -28,67 +33,76 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-width: 100vw;
-        min-height: 100vh;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background: palevioletred;
+        opacity: 0.6;
+        margin: 0 auto;
     }
 
-    .header-h1{
+    .header-h1 {
         display: flex;
         justify-content: center;
-        font-size: 35px;
-        margin-left: -55px;
-      }
+        font-size: 55px;
+        /* margin-left: -55px; */
+    }
 
-      .nav-bar-cta {
+    .nav-bar-cta {
         display: flex;
         flex-direction: column;
         height: 100vh;
     }
 
-      .social-media-cta {
+    .social-media-cta {
         display: flex;
         justify-content: center;
         height: 100%;
-      }
+    }
 
-      /* Home */
+    .social-media-icon {
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
 
-      .home-cta {
+    }
+
+    /* Home */
+
+    .home-cta {
         visibility: hidden;
-      }
+    }
 
-      .home-h2 {
+    .home-h2 {
         visibility: hidden;
-      }
+    }
 
-      /*  Path */
+    /*  Path */
 
-      .path-cta {
+    .path-cta {
         
+    }
 
-      }
-
-      .path-h2 {
+    .path-h2 {
         margin: 0 auto;
         text-align: center;
-    
-      }
 
-      /* Player */
+    }
 
-      .react-player {
+    /* Player */
+
+    .react-player {
         /* visibility: hidden; */
         max-width: 400px;
-    
-    }
-      
-} 
-    /* End  */
-
-
-
-    
-    @media(max-width:900px)  {
 
     }
 
+}
+
+/* End  */
+
+
+
+
+@media(max-width:900px) {}
