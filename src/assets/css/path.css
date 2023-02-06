@@ -3,6 +3,7 @@
     /* margin: 0 auto; */
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -18,6 +19,7 @@
 .path-cta {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .studio-cta {
