@@ -14,13 +14,10 @@
 }
 
 
-/* Studio */
+/* Path  */
 .path-cta {
-    /* background-color:black; opacity:0.4; */
-
     display: flex;
-    justify-content: stretch;
-
+    justify-content: center;
 }
 
 .studio-cta {
@@ -40,5 +37,6 @@
 }
 
 .react-player {
-    opacity: 1;
+    box-shadow: 25px 10px 15px 0px palevioletred, 20px 15px 30px 15px pink;
+
 }

@@ -10,7 +10,7 @@
         max-width: 100%;
         min-height: 100vh;
         background-image: url('../img/pink_crouch.jpg');
-    
+        /* margin: 0 auto; */
       }
 
     /* Header */
@@ -20,11 +20,19 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
+        align-items: center;
     }
 
     .header-h1{
         display: flex;
         justify-content: center;
+        font-size: 55px;
+      }
+
+      .social-media-cta {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
       }
 
       /* Home */
@@ -44,11 +52,20 @@
     
       }
 
+      /* Player */
+
+      .react-player {
+        width: 100%;
+        margin: 0 auto;
+      }
+
 } 
     /* End  */
 
 
 
     
+    @media(max-width:900px)  {
 
+    }
 
