@@ -68,30 +68,3 @@ code {
     monospace;
 }
 
-@media(max-width:640px) {
-  html {
-    background-image: none;
-    /* background-color: #ff74aA; */
-    max-width: 100%;
-    min-height: 100vh;
-    background-image: url('../img/pink_crouch.jpg');
-
-  }
-
-
-  .header-h1{
-    display: flex;
-    justify-content: center;
-  }
-
-  .path-h2 {
-    margin: 0 auto;
-    text-align: center;
-
-  }
-
-  .home-h2 {
-    visibility: hidden;
-  }
-}
-

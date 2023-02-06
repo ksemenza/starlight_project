@@ -1,15 +1,16 @@
 /* Home */
 .home-cta {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
 
 }
 
+/* Welcome to my Queendom */
 .home-h2 {
     color: white;
-    font-size: 32px;
-
+    font-size: 85px;
+    text-shadow: 2px 1px black;
 }
 
 
@@ -19,14 +20,14 @@
 
     display: flex;
     justify-content: stretch;
-    padding: 15px;
-    margin: 0 auto;
+
 }
 
 .studio-cta {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .path-h2 {
@@ -40,17 +41,4 @@
 
 .react-player {
     opacity: 1;
-}
-
-/* Media Query Responsive Design */
-
-@media(max-width:650px) {
-    .path-cta {
-        height: 100vh;
-        min-width: 100vw;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-
-    }
 }

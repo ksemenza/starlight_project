@@ -1,0 +1,54 @@
+
+/* Media Query Responsive Design */
+
+@media(max-width:900px) {
+  
+    /* Root */
+    html {
+        background-image: none;
+        background-color: #ff74aA;
+        max-width: 100%;
+        min-height: 100vh;
+        background-image: url('../img/pink_crouch.jpg');
+    
+      }
+
+    /* Header */
+
+    .header-root-cta {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .header-h1{
+        display: flex;
+        justify-content: center;
+      }
+
+      /* Home */
+
+      .home-cta {
+
+      }
+
+      .home-h2 {
+        visibility: hidden;
+      }
+
+      /*  Path */
+      .path-h2 {
+        margin: 0 auto;
+        text-align: center;
+    
+      }
+
+} 
+    /* End  */
+
+
+
+    
+
+
