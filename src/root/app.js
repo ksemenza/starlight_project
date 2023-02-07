@@ -4,6 +4,7 @@ import Bio from "../paths/Bio.jsx";
 import Studio from "../paths/Studio.jsx";
 import { Routes, Route } from "react-router-dom";
 import Book from "../paths/Book";
+import SocialMedia from "../components/SocialMedia.jsx";
 
 function app() {
   return (

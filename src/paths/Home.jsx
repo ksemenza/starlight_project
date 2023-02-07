@@ -6,9 +6,10 @@ function Home() {
     <div className="home-cta">
       <h2 className="home-h2">Welcome to my Queendom</h2>
       <ReactPlayer
-        className="react-player home"
+        className="home-player"
         url="https://www.youtube.com/watch?v=HRDSvMyz3TU&t=3473s"
       />
+    
     </div>
   );
 }
