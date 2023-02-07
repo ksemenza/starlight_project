@@ -3,13 +3,10 @@ import '../assets/css/path.css';
 
 function Book () {
   return (
-    <div className="contact-frame">
-        <div className="contact-header">
-        <h3 className="contact-h3"> Contact </h3>
-        </div>
-        
-        <div className="contact-content content-frame">
-            <form className="contact-form">
+        <div className="path-cta contact">
+        <h2 className="path-h2 contact"> Contact </h2>
+        <div className="contact-cta content-frame">
+            <form className="path-form contact-+o">
             <p>
                 
                 Name<br/>

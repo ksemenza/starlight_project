@@ -5,7 +5,7 @@ function Bio () {
   "https://bandzoogle.com/blog/how-to-write-an-effective-musician-bio-with-examples";
 
   return (
-    <div className=" path-cta bio-cta">
+    <div className=" path-cta bio">
     <h2 className="path-h2 bio">Bio</h2>
     <p className="path-p bio">
           <h2>How to write an effective musician bio </h2>
