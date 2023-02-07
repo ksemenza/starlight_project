@@ -9,8 +9,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  width: 100%;
-  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
 
 
 
@@ -74,7 +74,11 @@ code {
   display: flex;
   justify-content: center;
   max-width: 100vw;
-  max-height: 100vh;
+  min-height: 100vh;
   margin: 5px 35px 5px 35px;
 
+}
+
+.social-media-cta {
+  margin-top: 135px;
 }

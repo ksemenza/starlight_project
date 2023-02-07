@@ -5,6 +5,7 @@ import App from "./root/app";
 import HeaderRoot from "./root/headerRoot";
 import reportWebVitals from "./reportWebVitals";
 
+import SocialMedia from './components/SocialMedia'
 import { BrowserRouter } from "react-router-dom";
 // import './assets/css/media_queries.css'
 import "./assets/font/PermanentMarker.ttf";
@@ -15,6 +16,7 @@ root.render(
     <BrowserRouter>
       <HeaderRoot />
       <App />
+      <SocialMedia/>
     </BrowserRouter>
   </React.StrictMode>
 );

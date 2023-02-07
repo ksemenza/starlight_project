@@ -6,11 +6,11 @@ function NavBar () {
   return (
     <div className="nav-bar-cta">
 
-    <Link className='nav-bar-link' to="/">Home</Link>
-    <Link className='nav-bar-link' to="/studio">Studio</Link>
-    <Link className='nav-bar-link' to="/bio">Bio</Link>
-    <Link className='nav-bar-link' to="/shop">Shop</Link>
-    <Link className='nav-bar-link' to="/book">Book</Link>
+    <Link className='nav-bar-link home' to="/">Home</Link>
+    <Link className='nav-bar-link studio' to="/studio">Studio</Link>
+    <Link className='nav-bar-link bio' to="/bio">Bio</Link>
+    <Link className='nav-bar-link shop' to="/shop">Shop</Link>
+    <Link className='nav-bar-link book' to="/book">Book</Link>
     
     </div>
   );
