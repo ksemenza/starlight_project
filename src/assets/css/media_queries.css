@@ -5,16 +5,18 @@
     /* Root */
 
     #root {
-    height: 100%;
+    min-height: 100vh;
+    text-align: center;
+
 
     }
 
     html {
-
+        margin: 0 auto;
     }
 
     body {
-        margin: 75px 0 0 0;
+        /* margin: 75px 0 0 0; */
     }
 
     .app-cta {
@@ -28,36 +30,40 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        max-height: 100vh;
-        margin: 35px;
+
+        min-width: 100vw;
+        min-height: 100vh;
+        margin: 0 auto;
         color: black;
     }
 
     .header-h1 {
         text-align: center;
-        color: white;
-        text-shadow: 3px 1px black;
-
+        color: black;
+        text-shadow: 3px 1px #ff7cae
+;
         font-size: 65px;
         margin: 0;
         justify-content: center;
-        margin: 150px 0 35px 0;        /* margin-left: -55px; */
+        padding-bottom: 55px;
+        padding-top: 55px;
     }
 
     .nav-bar-cta {
         display: flex;
         flex-direction: column;
        min-height: 100vh;
-        margin: 0;
+        margin: 0 auto;
+    }
+
+    .nav-cta {
+        margin: 0 auto;
     }
 
     .nav-bar-link {
         font-size: 55px;
-        color: white;
-        text-shadow: 3px 1px palevioletred;
+        color: black;
+        text-shadow: 3px 1px white;
         margin: 0;
     }
 
@@ -65,7 +71,7 @@
         display: flex;
         justify-content: center;
         height: 100%;
-        margin-top: 120px;
+        margin: 0 auto;
     }
 
     .social-media-icon {
