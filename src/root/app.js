@@ -1,4 +1,3 @@
-import "../assets/css/app.css";
 import Home from "../paths/Home.jsx";
 import Shop from "../paths/Shop.jsx";
 import Bio from "../paths/Bio.jsx";

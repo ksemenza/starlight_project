@@ -1,0 +1,11 @@
+@media(max-width:900px) {
+    .home-h2 {
+        visibility: hidden;
+
+}
+
+#root {
+    height: 100vh;
+}
+
+}
