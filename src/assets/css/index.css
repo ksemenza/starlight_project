@@ -8,8 +8,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  min-width: 640px;
-  min-height: 392px;
+  min-width: 1024px;
+  min-height: 768px;
 }
 
 /*  PermanentMarker 
@@ -95,3 +95,6 @@ code {
     height: 100%;
 
 }
+
+
+

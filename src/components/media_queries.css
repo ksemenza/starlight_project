@@ -1,11 +1,10 @@
 @media(max-width:900px) {
     .home-h2 {
-        visibility: hidden;
-
+        color: rebeccapurple;
 }
 
 #root {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 }

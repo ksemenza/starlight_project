@@ -1,6 +1,6 @@
 /* Media Query Responsive Design */
 
-@media(max-width:900px) {
+@media(max-width:1024px) {
 
     /* Root */
 
@@ -10,8 +10,7 @@
     }
 
     html {
-        background-image: none;
-        background-image: url('../img/pink_crouch.jpg');
+
     }
 
     body {
@@ -34,6 +33,7 @@
         width: 100%;
         max-height: 100vh;
         margin: 35px;
+        color: black;
     }
 
     .header-h1 {

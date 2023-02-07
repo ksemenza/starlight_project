@@ -8,8 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 import SocialMedia from './components/SocialMedia'
 import { BrowserRouter } from "react-router-dom";
 import "./assets/font/PermanentMarker.ttf";
-
-import './components/media_queries.css'
+import  './assets/css/media_queries.css'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
