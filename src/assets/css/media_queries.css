@@ -35,9 +35,9 @@
     .header-h1 {
         text-align: center;
         color: white;
-        text-shadow: 3px 1px #ff7cae;
+        text-shadow: 3px 1px black;
         font-size: 125px;
-        margin: 27px;
+        margin: 27px 27px 175px 27px;
         justify-content: center;
     }
 
@@ -52,15 +52,15 @@
     }
 
     .nav-bar-link {
-        font-size: 55px;
-        color: black;
+        font-size: 75px;
+        color: pink;
         text-shadow: 3px 1px white;
-        margin: 0;
+        margin: 35px;
     }
 
     .social-media-cta {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin: 0 auto;
     }
 

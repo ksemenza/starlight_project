@@ -5,7 +5,7 @@
 }
 
 html {
-  min-height:1200px;
+  min-height:100vh;
   max-width: 100%;
   background-image: url('../img/pink_crouch.jpg');
   background-repeat: no-repeat;
