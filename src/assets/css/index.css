@@ -1,14 +1,14 @@
 #root {
   margin: 0;
   padding: 0;
-  
+
 }
 
 html {
   background-image: url('../img/pink_crouch.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position:absolute;
+  position: absolute;
   width: 100%;
   height: 100vh;
 
@@ -40,6 +40,7 @@ Unbound
   src: local("'../font/PermanentMarker.ttf"),
     url("../font/PermanentMarker.ttf") format("truetype");
 }
+
 /* Caveat */
 @font-face {
   font-family: "Caveat";

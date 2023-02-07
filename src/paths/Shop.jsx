@@ -1,10 +1,9 @@
-import '../assets/css/path.css';
+import "../assets/css/path.css";
 
-function Shop () {
+function Shop() {
   return (
     <div className="path-cta shop-cta">
-    <h2 className="path-h2">Shop</h2>
-
+      <h2 className="path-h2">Shop</h2>
     </div>
   );
 }
