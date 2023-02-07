@@ -1,5 +1,6 @@
 import "../assets/css/header.css";
 import NavBar from "../components/NavBar";
+import SocialMedia from "../components/SocialMedia";
 
 function headerRoot() {
   return (

@@ -4,11 +4,10 @@ import "./assets/css/index.css";
 import App from "./root/app";
 import HeaderRoot from "./root/headerRoot";
 import reportWebVitals from "./reportWebVitals";
-
-import SocialMedia from './components/SocialMedia'
 import { BrowserRouter } from "react-router-dom";
 import "./assets/font/PermanentMarker.ttf";
 import  './assets/css/media_queries.css'
+import SocialMedia from "./components/SocialMedia";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

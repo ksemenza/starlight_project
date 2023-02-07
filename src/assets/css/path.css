@@ -4,15 +4,17 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    height: 100%;
 }
+
 
 /* Home */
 .home-cta {
-    /* margin: 0 auto; */
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    height: 100%
 }
 
 /* Welcome to my Queendom */
@@ -23,13 +25,16 @@
 }
 
 .react-player.home {
-    margin: 0 auto;
+    padding: 55px;
+    /* margin-bottom: -150px; */
+
 }
 
 /* Bio */
 .path-h2.bio {
     margin: 0 auto;
     padding: 0;
+
 
 }
 
@@ -38,7 +43,7 @@
     padding: 0;
     color: white;
     text-shadow: 2px 1px palevioletred;
-    font-size: 25px;
+    font-size: 35px;
 
 
 }
@@ -46,9 +51,7 @@
 /* Studio */
 .studio-cta {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+
 }
 
 .path-h2 {
@@ -60,3 +63,9 @@
 
 }
 
+.home-player {
+    margin: 0 auto;
+}
+
+.react-player {
+}
